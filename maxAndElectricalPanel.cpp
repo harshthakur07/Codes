@@ -29,10 +29,10 @@ int main(){
 			cin>>z;
 			if(z==1){
 			  isBroken = true;
-			  one = t;				
+			  one=t+1;				
 			}else if(z==0){
 			  isBroken = false;
-			  zero = t;
+			  zero = t-1;
                          }	
 		}else{
 		 coins = coins - c;
