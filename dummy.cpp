@@ -12,9 +12,36 @@ using namespace std;
 #define pb(a) push_back(a)
 #define bhaukaal ios_base::sync_with_stdio(false);cin.tie(NULL)
 
+
 int main()
 {
-    bhaukaal; 
+    bhaukaal;
+
+
 
     return 0;
 }
+
+
+
+
+
+
+
+
+
+// void fun1(int num, ...)
+// {
+//     char *str;
+//     va_list ptr;
+//     va_start(ptr, num);
+//     str = va_arg(ptr, char *);
+//     printf("%s ", str);
+// }
+// void fun2(int num, ...)
+// {
+//     va_list ptr;
+//     va_start(ptr, num);
+//     num = va_arg(ptr, int);
+//     printf("%d", num);
+// }

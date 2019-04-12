@@ -22,6 +22,8 @@ int main()
     while(q--){
         ll l1,r1,l2,r2;
         cin>>l1>>r1>>l2>>r2;
+        if(l1==r2) cout<<r1<<" "<<r2<<endl;
+        else
         cout<<l1<<" "<<r2<<endl;
         // if(l1==l2 && r1==r2) cout<<l1<<" "<<r1<<endl;
         // else if(l2<r1) cout<<l2<<" "<<r2<<endl;
@@ -34,3 +36,4 @@ int main()
 
     return 0;
 }
+// (1≤l1i,r1i,l2i,r2i≤109,l1i<r1i,l2i<r2i)
